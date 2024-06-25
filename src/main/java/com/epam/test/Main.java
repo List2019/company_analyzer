@@ -13,9 +13,9 @@ public class Main {
         if (args.length == 0 || args[0] == null) {
             throw new CSVFileNameMissingException(CSV_FILE_NAME_WAS_NOT_PROVIDED_ERROR_MESSAGE);
         }
-        String employeeCSVFileName = args[0];
+        String employeesCSVFileName = args[0];
 
         var companyAnalyzeService = new CompanyAnalyzeService(new SalaryService(), new ReportLineService(), new PrintService());
-        companyAnalyzeService.analyzeCompany(employeeCSVFileName);
+        companyAnalyzeService.analyzeCompany(employeesCSVFileName);
     }
 }
