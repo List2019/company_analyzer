@@ -20,7 +20,7 @@ class CSVReaderServiceTest {
     private final CSVReaderService csvReaderService = new CSVReaderService();
 
     @Test
-    void csvFileWasNotFound() {
+    void shouldThrowCSVFileWasNotFoundException() {
         String wrongFileName = "abcFileName.csv";
         CSVFileNotFoundException exception = assertThrows(CSVFileNotFoundException.class, () -> csvReaderService.readCSV(wrongFileName));
 
@@ -29,7 +29,7 @@ class CSVReaderServiceTest {
     }
 
     @Test
-    void csvFileIncorrectStructure() {
+    void shouldThrowCSVFileReadingException() {
         String incorrectStructureFilename = "incorrect_structure.csv";
         CSVFileReadingException exception = assertThrows(CSVFileReadingException.class, () -> csvReaderService.readCSV(incorrectStructureFilename));
 
@@ -38,7 +38,7 @@ class CSVReaderServiceTest {
 
 
     @Test
-    void csvFileWasSuccessfullyParsed() {
+    void shouldSuccessfullyParseCSVFile() {
         List<Employee> employees = csvReaderService.readCSV("mock_employees.csv");
 
         assertEquals(11, employees.size());

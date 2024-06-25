@@ -22,7 +22,7 @@ class SalaryServiceTest {
     private final SalaryService salaryService = new SalaryService();
 
     @Test
-    void getManagerSubordinatesAverageSalaryTest() {
+    void shouldSuccessfullyGetManagersAndTheirSubordinatesAverageSalary() {
         List<Employee> employees = getEmployees();
         Map<Employee, BigDecimal> managerSubordinatesAverageSalary = salaryService.getManagerSubordinatesAverageSalary(employees);
 
@@ -34,7 +34,7 @@ class SalaryServiceTest {
     }
 
     @Test
-    void getUnderpaidManagersTest() {
+    void shouldGetUnderpaidManagersSuccessfully() {
         Map<Employee, BigDecimal> managersWithSmallSalaries = getManagersWithSmallSalaries();
         Map<Employee, BigDecimal> underpaidManagers = salaryService.getUnderpaidManagers(managersWithSmallSalaries);
 
@@ -48,7 +48,7 @@ class SalaryServiceTest {
     }
 
     @Test
-    void getOverpaidManagersTest() {
+    void shouldGetOverpaidManagersSuccessfully() {
         Map<Employee, BigDecimal> managersWithSmallSalaries = getManagersWithHighSalaries();
         Map<Employee, BigDecimal> overpaidManagers = salaryService.getOverpaidManagers(managersWithSmallSalaries);
 

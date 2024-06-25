@@ -20,7 +20,7 @@ class ReportLineServiceTest {
     private final ReportLineService reportLineService = new ReportLineService();
 
     @Test
-    void getLongReportLineEmployeesTest() {
+    void shouldGetLongReportLineEmployeesSuccessfully() {
         List<Employee> employees = getEmployees();
         Map<Employee, Integer> longReportLineEmployees = reportLineService.getLongReportLineEmployees(employees);
 

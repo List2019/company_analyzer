@@ -13,7 +13,14 @@ import com.epam.swissre.exception.CSVFileNameMissingException;
 class MainTest {
 
     @Test
-    void employeeCSVFileNameWasNotProvided() {
+    void inputArgumentInMainIsEmpty() {
+        CSVFileNameMissingException exception = assertThrows(CSVFileNameMissingException.class, () -> Main.main(new String[1]));
+
+        assertEquals(CSV_FILE_NAME_WAS_NOT_PROVIDED_ERROR_MESSAGE, exception.getMessage());
+    }
+
+    @Test
+    void inputArgumentInMainIsNull() {
         CSVFileNameMissingException exception = assertThrows(CSVFileNameMissingException.class, () -> Main.main(new String[0]));
 
         assertEquals(CSV_FILE_NAME_WAS_NOT_PROVIDED_ERROR_MESSAGE, exception.getMessage());
