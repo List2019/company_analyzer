@@ -1,4 +1,4 @@
-package com.epam.test.exception;
+package com.epam.swissre.exception;
 
 public class CSVFileReadingException extends RuntimeException {
 

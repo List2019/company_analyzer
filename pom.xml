@@ -45,7 +45,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.epam.test.Main</mainClass>
+                            <mainClass>com.epam.swissre.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

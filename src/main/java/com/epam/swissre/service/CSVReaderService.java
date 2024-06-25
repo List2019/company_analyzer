@@ -1,6 +1,6 @@
-package com.epam.test.service;
+package com.epam.swissre.service;
 
-import static com.epam.test.utils.Constants.CSV_FILE_READING_ERROR_MESSAGE;
+import static com.epam.swissre.utils.Constants.CSV_FILE_READING_ERROR_MESSAGE;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -9,9 +9,9 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.epam.test.exception.CSVFileNotFoundException;
-import com.epam.test.exception.CSVFileReadingException;
-import com.epam.test.model.Employee;
+import com.epam.swissre.exception.CSVFileNotFoundException;
+import com.epam.swissre.exception.CSVFileReadingException;
+import com.epam.swissre.model.Employee;
 
 public class CSVReaderService {
 

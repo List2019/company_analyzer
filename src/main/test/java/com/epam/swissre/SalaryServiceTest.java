@@ -1,7 +1,7 @@
-package com.epam.test;
+package com.epam.swissre;
 
-import static com.epam.test.TestConstants.EMPLOYEE_LAST_NAME;
-import static com.epam.test.TestConstants.EMPLOYEE_NAME;
+import static com.epam.swissre.TestConstants.EMPLOYEE_LAST_NAME;
+import static com.epam.swissre.TestConstants.EMPLOYEE_NAME;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -14,8 +14,8 @@ import java.util.Map;
 
 import org.junit.jupiter.api.Test;
 
-import com.epam.test.model.Employee;
-import com.epam.test.service.SalaryService;
+import com.epam.swissre.model.Employee;
+import com.epam.swissre.service.SalaryService;
 
 class SalaryServiceTest {
 

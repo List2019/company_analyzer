@@ -1,4 +1,4 @@
-package com.epam.test.model;
+package com.epam.swissre.model;
 
 import java.math.BigDecimal;
 

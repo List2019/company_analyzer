@@ -1,13 +1,13 @@
-package com.epam.test.service;
+package com.epam.swissre.service;
 
-import static com.epam.test.utils.Constants.EARNS_LESS;
-import static com.epam.test.utils.Constants.EARNS_MORE;
-import static com.epam.test.utils.Constants.SEPARATOR;
+import static com.epam.swissre.utils.Constants.EARNS_LESS;
+import static com.epam.swissre.utils.Constants.EARNS_MORE;
+import static com.epam.swissre.utils.Constants.SEPARATOR;
 
 import java.math.BigDecimal;
 import java.util.Map;
 
-import com.epam.test.model.Employee;
+import com.epam.swissre.model.Employee;
 
 public class PrintService {
 

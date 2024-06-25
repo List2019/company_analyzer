@@ -1,7 +1,7 @@
-package com.epam.test;
+package com.epam.swissre;
 
-import static com.epam.test.utils.Constants.CSV_FILE_READING_ERROR_MESSAGE;
-import static com.epam.test.utils.Constants.CSV_FILE_WAS_NOT_FOUND_ERROR_MESSAGE;
+import static com.epam.swissre.utils.Constants.CSV_FILE_READING_ERROR_MESSAGE;
+import static com.epam.swissre.utils.Constants.CSV_FILE_WAS_NOT_FOUND_ERROR_MESSAGE;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -10,10 +10,10 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import com.epam.test.exception.CSVFileNotFoundException;
-import com.epam.test.exception.CSVFileReadingException;
-import com.epam.test.model.Employee;
-import com.epam.test.service.CSVReaderService;
+import com.epam.swissre.exception.CSVFileNotFoundException;
+import com.epam.swissre.exception.CSVFileReadingException;
+import com.epam.swissre.model.Employee;
+import com.epam.swissre.service.CSVReaderService;
 
 class CSVReaderServiceTest {
 

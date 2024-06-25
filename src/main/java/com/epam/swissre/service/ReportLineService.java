@@ -1,12 +1,12 @@
-package com.epam.test.service;
+package com.epam.swissre.service;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.epam.test.model.Employee;
-import com.epam.test.model.EmployeeNode;
+import com.epam.swissre.model.Employee;
+import com.epam.swissre.model.EmployeeNode;
 
 public class ReportLineService {
 

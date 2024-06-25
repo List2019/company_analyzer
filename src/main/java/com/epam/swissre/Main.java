@@ -1,12 +1,12 @@
-package com.epam.test;
+package com.epam.swissre;
 
-import static com.epam.test.utils.Constants.CSV_FILE_NAME_WAS_NOT_PROVIDED_ERROR_MESSAGE;
+import static com.epam.swissre.utils.Constants.CSV_FILE_NAME_WAS_NOT_PROVIDED_ERROR_MESSAGE;
 
-import com.epam.test.exception.CSVFileNameMissingException;
-import com.epam.test.service.CompanyAnalyzeService;
-import com.epam.test.service.PrintService;
-import com.epam.test.service.ReportLineService;
-import com.epam.test.service.SalaryService;
+import com.epam.swissre.exception.CSVFileNameMissingException;
+import com.epam.swissre.service.CompanyAnalyzeService;
+import com.epam.swissre.service.PrintService;
+import com.epam.swissre.service.ReportLineService;
+import com.epam.swissre.service.SalaryService;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package com.epam.test.service;
+package com.epam.swissre.service;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 
-import com.epam.test.model.Employee;
+import com.epam.swissre.model.Employee;
 
 public class CompanyAnalyzeService {
     private final SalaryService salaryService;

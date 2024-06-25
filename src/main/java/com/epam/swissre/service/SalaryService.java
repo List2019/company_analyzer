@@ -1,7 +1,7 @@
-package com.epam.test.service;
+package com.epam.swissre.service;
 
-import static com.epam.test.utils.Constants.FIFTY_PERCENT_INCREASE;
-import static com.epam.test.utils.Constants.TWENTY_PERCENT_INCREASE;
+import static com.epam.swissre.utils.Constants.FIFTY_PERCENT_INCREASE;
+import static com.epam.swissre.utils.Constants.TWENTY_PERCENT_INCREASE;
 import static java.util.stream.Collectors.groupingBy;
 
 import java.math.BigDecimal;
@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import com.epam.test.model.Employee;
+import com.epam.swissre.model.Employee;
 
 public class SalaryService {
 
