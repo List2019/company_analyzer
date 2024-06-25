@@ -2,8 +2,12 @@
 
 ## Getting started
 
-To run this app you need to provide csv file name
+### Build project
 
+In order to build project, navigate to the root project directory and run
+> mvn clean package
+
+This will create JAR artefact in target directory, which could be executed with the following command
 > java -jar exercise-106-1.0.jar employees.csv
 
 
